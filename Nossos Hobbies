@@ -1,0 +1,130 @@
+EXEMPLOS DE HOBBIES!!
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Meus Hobbies e Horários</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            border-left: 5px solid #00c6ff;
+            padding-left: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: rgba(255,255,255,0.2);
+            margin: 8px 0;
+            padding: 12px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        ul li:hover {
+            background: rgba(255,255,255,0.35);
+            transform: scale(1.03);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background: #00c6ff;
+            color: black;
+        }
+
+        tr:nth-child(even) {
+            background: rgba(255,255,255,0.1);
+        }
+
+        tr:hover {
+            background: rgba(255,255,255,0.2);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Meus Hobbies e Horários</h1>
+
+        <h2>🎮 Meus Hobbies</h2>
+        <ul>
+            <li>Jogar videogame</li>
+            <li>Programar</li>
+            <li>Assistir filmes</li>
+            <li>Ouvir música</li>
+            <li>Praticar esportes</li>
+        </ul>
+
+        <h2>📅 Horário Escolar</h2>
+        <table>
+            <tr>
+                <th>Disciplina</th>
+                <th>Professor</th>
+            </tr>
+            <tr>
+                <td>Matemática</td>
+                <td>João Silva</td>
+            </tr>
+            <tr>
+                <td>Português</td>
+                <td>Maria Souza</td>
+            </tr>
+            <tr>
+                <td>História</td>
+                <td>Carlos Lima</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>Ana Paula</td>
+            </tr>
+            <tr>
+                <td>Informática</td>
+                <td>Roberto Alves</td>
+            </tr>
+        </table>
+
+    </div>
+
+</body>
+</html>
+EXEMPLOS DE HOBBIES!!
